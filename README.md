@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# STTUDENT-SCHOLARSHIP-MANAGEMENT-PORTAL
+A full-stack Scholarship &amp; Grant Management Portal developed using React.js, Node.js, Express.js, and PostgreSQL. The system allows students to apply for scholarships, upload documents, and track applications, while administrators can manage scholarships and applications through a secure role-based platform.
+>>>>>>> 5be43e2940cb4eaad27436b1e654ed29fe131768
