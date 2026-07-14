@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.apply-container{
+  padding:30px;
+  min-height:100vh;
+  background:#f4f6f9;
+}
+
+.apply-container h1{
+  margin-bottom:25px;
+  color:#0d47a1;
+}
+
+.scholarship-form{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:18px;
+}
+
+.form-group label{
+  margin-bottom:8px;
+  font-weight:bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:8px;
+  outline:none;
+}
+
+.submit-btn{
+  background:#0d47a1;
+  color:white;
+  border:none;
+  padding:14px 25px;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+.submit-btn:hover{
+  opacity:0.9;
+}

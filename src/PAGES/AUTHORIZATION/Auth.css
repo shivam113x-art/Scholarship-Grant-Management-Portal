@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', sans-serif;
+}
+
+body{
+  background: #4f6df5;
+}
+
+.page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 900px;
+  height: 550px;
+  background: rgb(200, 201, 202);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  border: 5px solid #000000;
+}
+
+/* Left Image Panel */
+.left-panel{
+  width: 50%;
+  background: #eef1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel img{
+  width: 80%;
+}
+
+/* Right Panel */
+.right-panel{
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Forms */
+.form{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.6s ease-in-out;
+}
+
+.form h1{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.left-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; /* Removes any extra spacing below the image */
+}
+.form input{
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  
+}
+input::placeholder {
+  color: #282626;
+  font-weight: 500;
+}
+
+.form button{
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #000000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form p{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form span{
+  color: #0d488a;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+/* Login Form Visible */
+.login{
+  left: 0;
+}
+
+/* Register Form Hidden */
+.register{
+  left: 100%;
+}
+
+/* Slide Animation */
+.container.active .login{
+  left: -100%;
+}
+
+.container.active .register{
+  left: 0;
+}
+
+.page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3567b9;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top Left Circle */
+.page::before{
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  top: -80px;
+  left: -80px;
+}
+
+/* Bottom Right Circle */
+.page::after{
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  bottom: -120px;
+  right: -120px;
+}
+
+.role-select{
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+.role-select:focus{
+  border-color: #3567b9;
+  box-shadow: 0 0 5px rgba(53,103,185,0.3);
+}
