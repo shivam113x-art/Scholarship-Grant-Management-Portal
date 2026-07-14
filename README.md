@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -18,4 +18,3 @@ If you are developing a production application, we recommend using TypeScript wi
 =======
 # STTUDENT-SCHOLARSHIP-MANAGEMENT-PORTAL
 A full-stack Scholarship &amp; Grant Management Portal developed using React.js, Node.js, Express.js, and PostgreSQL. The system allows students to apply for scholarships, upload documents, and track applications, while administrators can manage scholarships and applications through a secure role-based platform.
->>>>>>> 5be43e2940cb4eaad27436b1e654ed29fe131768
